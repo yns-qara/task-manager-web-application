@@ -1,3 +1,17 @@
+import os
+# get .gitignore content from /backend/.gitignore and /frontend/.gitignore
+# and combine them into a single .gitignore file
+with open(os.path.join("backend", ".gitignore")) as f:
+    backend_gitignore = f.read()
+with open(os.path.join("frontend", ".gitignore")) as f:
+    frontend_gitignore = f.read()
+with open(".gitignore", "w") as f:
+    f.write(backend_gitignore)
+    f.write(frontend_gitignore) 
+
+
+
+
 # Node modules
 **/node_modules/
 
