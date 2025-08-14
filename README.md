@@ -10,6 +10,9 @@ A modern fullstack task management application built with React (TypeScript) fro
 ![Backend API Structure](./images/screen_2.png)
 *Editing a Task*
 
+![Backend API Structure](./images/swagger.png)
+*Interactive API documentation available at http://localhost:3000/api-docs showing all endpoints with examples and testing capabilities*
+
 ## Architecture Overview
 
 This application follows a clean, modular architecture with clear separation of concerns:
